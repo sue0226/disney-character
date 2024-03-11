@@ -43,11 +43,8 @@
 - 사진을 편집할 수 있는 기능을 추가해 보세요.
 
 ### **<화면 예시>**
-
-![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/3ef8dbd9-414c-4cf5-813d-32ecb943cc67/e565a587-eeb5-4a0a-b952-fd119b44600b/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2Fe565a587-eeb5-4a0a-b952-fd119b44600b%2FUntitled.png?table=block&id=b003857b-8161-4f95-9c90-848606cfa80c&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1970&userId=eea4528a-9c73-4405-a14c-dfa3e9060a79&cache=v2)https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2Fe565a587-eeb5-4a0a-b952-fd119b44600b%2FUntitled.png?table=block&id=b003857b-8161-4f95-9c90-848606cfa80c&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1970&userId=eea4528a-9c73-4405-a14c-dfa3e9060a79&cache=v2)
-
-![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/3ef8dbd9-414c-4cf5-813d-32ecb943cc67/be516ff7-0eda-422d-91c1-600d7d59062c/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2Fbe516ff7-0eda-422d-91c1-600d7d59062c%2FUntitled.png?table=block&id=2c3ba5bb-eb39-463a-8443-8f85f66529eb&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1970&userId=eea4528a-9c73-4405-a14c-dfa3e9060a79&cache=v2)https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2Fbe516ff7-0eda-422d-91c1-600d7d59062c%2FUntitled.png?table=block&id=2c3ba5bb-eb39-463a-8443-8f85f66529eb&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1970&userId=eea4528a-9c73-4405-a14c-dfa3e9060a79&cache=v2)
+![임직원관리](https://github.com/KDT1-FE/KDT8-M2/assets/6160290/8560dd9d-68e4-4985-95b7-948c02351762)
+![임직원상세](https://github.com/KDT1-FE/KDT8-M2/assets/6160290/baec98f0-d17d-40e0-96fe-5cdc1e17104e)
 
 ### **<유저 플로우>**
-
-![Untitled]([https://prod-files-secure.s3.us-west-2.amazonaws.com/3ef8dbd9-414c-4cf5-813d-32ecb943cc67/54946cb4-0d8f-4cc8-80be-dc681f0ee288/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2F54946cb4-0d8f-4cc8-80be-dc681f0ee288%2FUntitled.png?table=block&id=c888e752-e654-4cd5-baa7-43ac480d70db&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1970&userId=eea4528a-9c73-4405-a14c-dfa3e9060a79&cache=v2)https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3ef8dbd9-414c-4cf5-813d-32ecb943cc67%2F54946cb4-0d8f-4cc8-80be-dc681f0ee288%2FUntitled.png?table=block&id=c888e752-e654-4cd5-baa7-43ac480d70db&spaceId=3ef8dbd9-414c-4cf5-813d-32ecb943cc67&width=1970&userId=eea4528a-9c73-4405-a14c-dfa3e9060a79&cache=v2)
+![유저플로우](https://github.com/KDT1-FE/KDT8-M2/assets/6160290/072d62c5-38b8-43a0-bc36-1922b9fc796a)
