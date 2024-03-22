@@ -1,0 +1,448 @@
+/* COMMON */
+
+html {
+  width: 100vw;
+  position: relative;
+  font-size: 14px;
+  --color-white: #FFF;
+  --color-white-50: rgba(255,255,255,.5);
+  --color-white-30: rgba(255,255,255,.3);
+  --color-black: #212121;
+  --color-black-30: rgba(0,0,0,.3);
+  --color-gray: #BDBDBD;
+  --color-primary: #3C5087;
+  --color-area: 	#0C2C5A;
+  --color-message: #B9062F;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  background-color: var(--color-primary);
+  color: var(--color-gray);
+  font-family: "Gowun Dodum", sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+.btn:hover {
+  background-color: var(--color-gray);
+  color: var(--color-black);
+}
+
+.body {
+  width: 80vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Gowun Dodum", sans-serif;
+  line-height: 1.4;
+  background-color: var(--color-area);
+  background-image: url('../image/background-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center 6rem ;
+  background-size: cover;
+  background-attachment: fixed;
+} 
+
+.body::before {
+  content: "";  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: -1;
+}
+
+.body.blur::before {
+  content: "";
+  background-color: rgba(0,0,0,0.7);
+  z-index: 3;
+}
+
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 125px;
+  top: 0;
+  left: 0;
+  background-color: var(--color-area);
+  position: fixed;   
+  z-index: 2;
+  display: flex;
+}
+
+header .text-box {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  width: max-content;
+  background: linear-gradient(90deg, #fff, #B4B4FF 15%,#8CF064 35%,#FFF064 50%, #FF9BE6 65%, #6EE0FF 85%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 100%;
+  margin: auto;
+  font-size: 40px;
+  font-family: "Madimi One", sans-serif;
+  animation: color-change 3s linear infinite;
+}
+@keyframes color-change {
+  0% {background-position: 0%;}
+  100% {background-position: 100%;}
+}
+
+
+header span {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Marcellus", sans-serif;
+  color: var(--color-gray);
+}
+
+header .search {
+  width: 30vw;
+  height: 2rem;
+  display: flex;
+  gap: 10px;
+  z-index: 2;
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+}
+.search input {
+  flex-grow: 1;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: var(--color-white-50);
+}
+.search input::placeholder {
+  color: var(---color-black-30);
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.search .btn--search {
+  font-family: "Marcellus", serif;
+}
+
+@media (max-width: 450px) {
+  header {
+    height: 140px;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+  header span {
+    font-size: 12px;
+  }
+  header .search {
+    width: 80vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    gap: 5px;
+  }
+  .search input::placeholder {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 1000px) {
+  header {
+    height: 150px;
+  }
+  header h1 {
+    font-size: 35px;
+  }
+  header span {
+    font-size: 14px;
+  }
+  header .search {
+    width: 55vw;
+    gap: 5px;
+  }
+}
+
+
+.list {
+  width: 100%;
+  margin-top: 145px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; 
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.list > div {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+  overflow: hidden;
+  perspective: 1000px;
+  border-radius: 20px;
+}
+
+.list.msg-ver{
+  flex-direction: column;
+}
+
+.list .message {
+  height: 2rem;
+  border-radius: 0;
+  color: var(--color-message);
+  background-color: var(--color-white-50);
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+  overflow: auto;
+}
+
+.list .btn--add {
+  background-color: var(--color-gray);
+  opacity: .5;
+  cursor: pointer;
+}
+
+.list .btn--add div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-black);
+}
+
+.list .btn--add div:first-child{
+  width: 90px;
+  height: 12px;
+}
+.list .btn--add div:last-child{
+  width: 12px;
+  height: 90px;
+}
+
+.list .card {
+  height: 16rem;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: .8s; 
+  position: relative;
+}
+
+.list > div:hover .card {
+  transform: rotateY(180deg);
+}
+
+.list .front {
+  backface-visibility: hidden;
+}
+
+.list .front img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.list .back {
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: rotateY(180deg);
+  background-color: var(--color-primary);
+}
+
+.list .back > div:first-child {
+  font-size: 20px;
+  padding: 7px 4px;
+  color: var(--color-black);
+  background-color: var(--color-gray);
+  border-radius: 5px 0 0 5px;
+}
+
+.list .back > div {
+  font-size: 16px;
+  margin-top: 10px;  
+  margin-left: 10px;
+  color: var(--color-gray); 
+}
+
+@media (max-width: 594px) {
+  .list {
+    justify-content: center;
+    margin-top: 170px;
+  }
+}
+
+@media (min-width: 595px) and (max-width: 800px) {
+  .list {
+    margin-top: 170px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+  .list {
+    margin-top: 180px;
+  }
+}
+
+.list .loader-box {
+  height: 5rem
+}
+
+/* 로딩 애니메이션 */
+.the-loader {
+  border-radius: 100%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 80px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 50%;
+  border: 7px dashed var(--color-gray);
+  animation: loader 2s infinite linear;
+  z-index: 9;
+}
+.the-loader.hide {
+  display: none;
+
+}
+
+@keyframes loader {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+/* 모달창 */
+.add, .detail, .edit {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  color: var(--color-white);
+  z-index: 4;
+  background-color: var(--color-area);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+}
+.add.hide, .detail.hide, .edit.hide, .alert.hide{
+  display: none;
+}
+
+.add .material-symbols-outlined, .detail .material-symbols-outlined, .edit .material-symbols-outlined{
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  top:5px;
+  right: 5px;
+  margin:auto;
+  cursor: pointer;
+}
+
+.add .text-box, .detail .text-box, .edit .text-box {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.detail .text-box {
+  margin: 30px auto 40px;
+}
+
+.add > div, .detail > div, .edit > div {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add .field-name, .detail .field-name, .edit .field-name {
+  width: 100px;
+}
+
+.add img, .detail img, .edit img {
+  position: absolute;
+  right: 40px;
+  top: 87px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.add input, .edit input {
+  width: 230px;
+  outline: none;
+  border: none;
+  background-color: var(--color-white-50);
+}
+
+.btn--save {
+  display: block;
+  margin: 30px auto;
+}
+.detail__btns {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 10px;
+  margin: auto;
+}
+#add__preview {
+  width:200px;
+  height: 200px;
+}
+
+/* 모달창 모바일 버전 */
+@media (max-width: 700px) {
+  .add, .detail, .edit {
+    width: 300px;
+    height: 600px;
+  }
+  .add .text-box, .detail .text-box, .edit .text-box {
+    font-size: 16px;
+  }
+  .add .field-name, .detail .field-name, .edit .field-name {
+    width: 80px;
+  }
+  .add input, .edit input {
+    width: 190px;
+    outline: none;
+    border: none;
+    background-color: var(--color-white-50);
+  }
+  .add img, .edit img {
+    top: 300px;
+    left: 50px;
+  }
+  .detail img {
+    top: 260px;
+    left: 50px;
+  }
+  .btn--save {
+    margin: 250px auto;
+  }
+}
