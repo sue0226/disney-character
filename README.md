@@ -1,23 +1,23 @@
-# 🐱 디즈니 캐릭터 정보 리스트 🐱
+## 🐱 디즈니 캐릭터 정보 리스트 🐱
 
 ⭐️ <a href ="https://disney-character-teal.vercel.app/" target ="_blank" >배포용 사이트</a> <br />
 
+### 🌸 기술 스택 <br /><br />
+<img alt="html" src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html&logoColor=black"> <img alt="css" src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css&logoColor=black"> <img alt="javascript" src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img alt="firebase" src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=black"> <img alt="env" src="https://img.shields.io/badge/env-ECD53F?style=for-the-badge&logo=env&logoColor=black"> <img alt="vercel" src="https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=black">
 
-## 🌸 유저플로우 <br /><br />
+### 🌸 유저플로우 <br /><br />
 <img width="700" alt="유저플로우" src="https://github.com/sue0226/disney-character/assets/159132495/b33dc83d-b6e2-4aef-8bcd-9cad8e0ce94a">
 
-
-## 🌸 전체 페이지 모습<br /><br />
+### 🌸 전체 페이지 모습<br /><br />
 <img width="700" alt="전체모습" src="https://github.com/sue0226/disney-character/assets/159132495/54a02104-4455-411c-b46b-132936a51b4b">
 
-## 🌸 입력 페이지 모습 <br /><br />
+### 🌸 입력 페이지 모습 <br /><br />
 <img width="700" alt="입력창" src="https://github.com/sue0226/disney-character/assets/159132495/57c9c266-887d-4cb9-a26b-0d7e01c69c81">
 
-## 🌸 편집 페이지 모습<br /><br />
+### 🌸 편집 페이지 모습<br /><br />
 <img width="1440" alt="편집창" src="https://github.com/sue0226/disney-character/assets/159132495/94a490cc-7ee7-40db-9177-e0b3c8dd8c7a">
 
-
-## 🐱 필수 요구사항 🐱
+### 🐱 필수 요구사항 🐱
 
 - 프로필 페이지를 개발하세요.
 - 스크롤이 가능한 형태의 리스팅 페이지를 개발하세요.
