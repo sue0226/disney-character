@@ -1,6 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+const APPKEY = process.env.APPKEY;
+const AUTHDOMAIN = process.env.AUTHDOMAIN;
+const PROJECTID = process.env.PROJECTID;
+const STORAGEBUCKET = process.env.STORAGEBUCKET;
+const MESSAGINGSENDERID = process.env.MESSAGINGSENDERID;
+const APPID = process.env.APPID;
+const MEASUREMENTID = process.env.MEASUREMENTID;
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -8,13 +15,13 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBLvCtiBvP4Um2LjU7udQLl6nC1VZt1p4Y",
-  authDomain: "friend-list-practice.firebaseapp.com",
-  projectId: "friend-list-practice",
-  storageBucket: "friend-list-practice.appspot.com",
-  messagingSenderId: "786722831465",
-  appId: "1:786722831465:web:d01bb11f1557f2ec52b6f8",
-  measurementId: "G-1JGWHRLELC"
+  apiKey: APPKEY,
+  authDomain: AUTHDOMAIN,
+  projectId: PROJECTID,
+  storageBucket: STORAGEBUCKET,
+  messagingSenderId: MESSAGINGSENDERID,
+  appId: APPID,
+  measurementId: MEASUREMENTID  
 };
 
 // Initialize Firebase
